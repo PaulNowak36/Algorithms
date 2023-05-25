@@ -21,6 +21,7 @@ public static class ArrayProblems
         var tmp = xs[a];
         xs[a] = xs[b];
         xs[b] = tmp;
+
     }
 
     public static T FirstElement<T>(T[] xs)
